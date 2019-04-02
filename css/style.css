@@ -1,0 +1,36 @@
+body {
+    margin: 10px;
+}
+
+.container-fluid {
+    display: flex;
+    margin: 10px;
+}
+.col{
+    display: inherit;
+    flex-flow: row wrap;
+}
+.flexRow{
+    flex-basis: 33%;
+    margin-bottom: 5px;
+}
+
+.float {
+    width: 33%;
+    float: left;
+    margin-bottom: 5px;
+
+}
+.float:nth-child(3n+1) {
+    clear: left;   
+}
+
+#dialog {
+    background-color: white;
+    border: 3px solid white;
+    text-align: center;
+}
+
+.fixed-dialog { 
+    position:"fixed";
+}  
