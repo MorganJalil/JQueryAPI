@@ -10,17 +10,25 @@ body {
     display: inherit;
     flex-flow: row wrap;
 }
-.flexRow{
+.flex{
     flex-basis: 33%;
     margin-bottom: 5px;
+    background-color: whitesmoke;
+}
+
+img {
+    object-fit: contain;
+    height: 300px;
+    width: 300px;
 }
 
 .float {
     width: 33%;
     float: left;
     margin-bottom: 5px;
-
+    background-color: bisque;
 }
+
 .float:nth-child(3n+1) {
     clear: left;   
 }
